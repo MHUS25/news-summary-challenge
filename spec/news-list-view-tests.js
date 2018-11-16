@@ -4,7 +4,8 @@ function testNewsListViewStartsEmpty() {
   assert.isEqualTo(newsListView.newsListHTML(), '<ul></ul>')
 }
 testNewsListViewStartsEmpty()
- function testNewsListViewWithNotesAdded() {
+
+function testNewsListViewWithNotesAdded() {
   var newsList = new NewsList
   var newsListView = new NewsListView(newsList)
   newsList.addArticle('Brexit', 'May facing pressure over Brexit');

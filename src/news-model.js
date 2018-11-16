@@ -4,14 +4,18 @@
     this.body = body
     this.id = id;
   };
-   News.prototype.getHeadline = function() {
+
+  News.prototype.getHeadline = function() {
     return this.headline
   };
-   News.prototype.getBody = function() {
+
+  News.prototype.getBody = function() {
     return this.body
   };
-   News.prototype.getId = function() {
+
+  News.prototype.getId = function() {
     return this.id
   };
-   exports.News = News;
+
+  exports.News = News;
 })(this);
