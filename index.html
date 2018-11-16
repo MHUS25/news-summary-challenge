@@ -2,8 +2,21 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>News Summary App</title>
   </head>
+   <div id="app"></div>
   <body>
+    <script src='src/news-model.js'></script>
+    <script src='src/news-list-model.js'></script>
+    <script src='src/news-list-view.js'></script>
+    <script src='src/news-controller.js'></script>
+    <script src='src/single-news-view.js'></script>
+
+    <script>
+    var newsController = new NewsController(new NewsList);
+    newsController.insertHTML();
+    newsController.makeUrlChangeShowNewsForCurrentPage();
+    </script>
+
    </body>
 </html>
