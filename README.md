@@ -1,16 +1,21 @@
-# News Summary challenge
+# News Summary Challenge
 
-* Challenge time: rest of the day and weekend, until Monday 9am.
-* Feel free to use Google, your notes, books, etc. but work on your own.
-* If you refer to the solution of another coach or student, please put a link to that in your README.
-* If you have a partial solution, **still check in a partial solution** and send in a pull request.
-* You must submit a pull request to this repo with your code by 9am Monday morning.
+* Makers Week 7 weekend Challenge
 
-## Challenge
+* An app which grabs all the headlines from the Guardian newspaper API and displays them on a page
 
-As usual please start by forking this repo.
+* Clicking on a headline will show a summary of the article
 
-You'll create an app that summarises the news.
+
+## Technologies
+
+* A single page web app written in frontend JavaScript, CSS and HTML
+
+* Using a static web server to serve HTML, CSS and JavaScript files
+
+* Sending requests to an API to get data from the Guardian and to summarise text
+
+___________________________________________________________________________________________________
 
 ### Guidance
 
